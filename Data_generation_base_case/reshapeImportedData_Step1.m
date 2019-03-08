@@ -2,7 +2,7 @@
 % cd('C:\Users\uriwolln\Desktop\cs229\Exported_properties')
 %% run Kennett 2D
 close all;
-cd ('/Volumes/GoogleDrive/My Drive/Research/Petrophysical_inversion/Data_generation_base_case');
+cd ('/Volumes/GoogleDrive/My Drive/Research/Petrophysical_inversion/petrophysical_inversion/Data_generation_base_case');
 % variogramRanges = linspace(10, 60, 21);
 % variogramRanges = [3 5 8 70 80 90 100];
 variogramRanges = 20;
@@ -14,8 +14,8 @@ for i=1:length(variogramRanges)
     clearvars -except i zClayMat zPhiMat zFaciesMat zSwMat variogramRanges PreName
     variogramRange = variogramRanges(i);
     
-    xlength = 10;
-    ylength = 10;
+    xlength = 50;
+    ylength = 50;
     zlength = 199;
     
     zFaciesMat_temp = zeros(xlength,ylength,zlength);

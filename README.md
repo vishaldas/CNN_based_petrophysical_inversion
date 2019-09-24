@@ -5,6 +5,8 @@ Paper reference:
 
 Das, V. and T. Mukerji, 2019, Petrophysical properties prediction from pre-stack seismic data using convolutional neural networks: SEG Technical Program Expanded Abstracts 2019, 2328-2332.
 
+(https://library.seg.org/doi/abs/10.1190/segam2019-3215122.1)
+
 The main folders with final neural network architectures for the synthetic cases are:
 
 1. Petrophysical from elastic - This contains the cascaded neural network architectures
